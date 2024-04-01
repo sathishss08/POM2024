@@ -23,6 +23,8 @@ public class Loginpage {
 	private By Loginbtn = By.xpath("//input[@type='submit']");
 
 	private By Forgotpasswd = By.linkText("Forgotten Password");
+	
+	private By sathish = By.linkText("Sathish");
 
 	// public page constructor
 	public Loginpage(WebDriver driver) {
